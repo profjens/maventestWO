@@ -1,0 +1,13 @@
+{
+    attributes = (
+        {allowsNull = N; name = id; prototypeName = id; }, 
+        {columnName = vorName; name = vorName; prototypeName = varchar100; }
+    ); 
+    attributesUsedForLocking = (id, vorName); 
+    className = "js_fb5.w_hs.model.MeinUser"; 
+    classProperties = (vorName); 
+    externalName = MeinUser; 
+    fetchSpecificationDictionary = {}; 
+    name = MeinUser; 
+    primaryKeyAttributes = (id); 
+}
