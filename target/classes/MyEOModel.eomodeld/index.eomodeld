@@ -1,0 +1,28 @@
+{
+    EOModelVersion = "2.1"; 
+    adaptorName = JDBC; 
+    connectionDictionary = {
+        URL = "jdbc:postgresql://localhost/mydb"; 
+        driver = "org.postgresql.Driver"; 
+        plugin = PostgresqlPlugIn; 
+        username = postgres; 
+    }; 
+    entities = ({className = "js_fb5.w_hs.model.MeinUser"; name = MeinUser; }); 
+    userInfo = {
+        "_EntityModeler" = {
+            activeDatabaseConfigName = Default; 
+            databaseConfigs = {
+                Default = {
+                    adaptorName = JDBC; 
+                    connectionDictionary = {
+                        URL = "jdbc:postgresql://localhost/mydb"; 
+                        driver = "org.postgresql.Driver"; 
+                        plugin = PostgresqlPlugIn; 
+                        username = postgres; 
+                    }; 
+                    prototypeEntityName = EOJDBCPostgresqlPrototypes; 
+                }; 
+            }; 
+        }; 
+    }; 
+}

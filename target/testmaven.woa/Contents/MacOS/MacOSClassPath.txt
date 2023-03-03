@@ -1,0 +1,56 @@
+# JVM              == java
+# JVMOptions       == 
+# JDB              == jdb
+# JDBOptions       == 
+# ApplicationClass == js_fb5.w_hs.testmaven.app.Application
+
+APPROOT/Resources/Java/
+APPROOT/Resources/Java/com/adobe/xmp/xmpcore/5.1.3/xmpcore-5.1.3.jar
+APPROOT/Resources/Java/com/drewnoakes/metadata-extractor/2.11.0/metadata-extractor-2.11.0.jar
+APPROOT/Resources/Java/com/google/code/jabsorb/1.2.2/jabsorb-1.2.2.jar
+APPROOT/Resources/Java/com/ibm/icu/icu4j/63.1/icu4j-63.1.jar
+APPROOT/Resources/Java/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar
+APPROOT/Resources/Java/commons-cli/commons-cli/1.4/commons-cli-1.4.jar
+APPROOT/Resources/Java/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+APPROOT/Resources/Java/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+APPROOT/Resources/Java/commons-io/commons-io/2.7/commons-io-2.7.jar
+APPROOT/Resources/Java/commons-lang/commons-lang/2.5/commons-lang-2.5.jar
+APPROOT/Resources/Java/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+APPROOT/Resources/Java/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar
+APPROOT/Resources/Java/junit/junit/4.13.1/junit-4.13.1.jar
+APPROOT/Resources/Java/log4j/log4j/1.2.17/log4j-1.2.17.jar
+APPROOT/Resources/Java/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar
+APPROOT/Resources/Java/net/sf/json-lib/json-lib/2.4/json-lib-2.4jdk15.jar
+APPROOT/Resources/Java/ognl/ognl/3.2.10/ognl-3.2.10.jar
+APPROOT/Resources/Java/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+APPROOT/Resources/Java/org/apache/commons/commons-text/1.6/commons-text-1.6.jar
+APPROOT/Resources/Java/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+APPROOT/Resources/Java/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar
+APPROOT/Resources/Java/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+APPROOT/Resources/Java/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+APPROOT/Resources/Java/org/javassist/javassist/3.24.1-GA/javassist-3.24.1-GA.jar
+APPROOT/Resources/Java/org/postgresql/postgresql/42.5.4/postgresql-42.5.4.jar
+APPROOT/Resources/Java/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+APPROOT/Resources/Java/testmaven.jar
+APPROOT/Resources/Java/wonder/ajax/Ajax/7.3/Ajax-7.3.jar
+APPROOT/Resources/Java/wonder/businesslogic/ERAttachment/7.3/ERAttachment-7.3.jar
+APPROOT/Resources/Java/wonder/core/ERExtensions/7.3/ERExtensions-7.3.jar
+APPROOT/Resources/Java/wonder/core/ERFoundation/1.0/ERFoundation-1.0.jar
+APPROOT/Resources/Java/wonder/core/ERPrototypes/7.3/ERPrototypes-7.3.jar
+APPROOT/Resources/Java/wonder/core/ERWebObjects/1.0/ERWebObjects-1.0.jar
+APPROOT/Resources/Java/wonder/core/JavaWOExtensions/7.3/JavaWOExtensions-7.3.jar
+APPROOT/Resources/Java/wonder/core/WOOgnl/7.3/WOOgnl-7.3.jar
+APPROOT/Resources/Java/wonder/eof/ERAttributeExtension/7.3/ERAttributeExtension-7.3.jar
+APPROOT/Resources/Java/wonder/eof/ERRest/7.3/ERRest-7.3.jar
+APPROOT/Resources/Java/wonder/misc/WOLips/7.3/WOLips-7.3.jar
+APPROOT/Resources/Java/wonder/plugins/PostgresqlPlugIn/7.3/PostgresqlPlugIn-7.3.jar
+APPROOT/Resources/Java/com/webobjects/JavaEOAccess/5.4.3/JavaEOAccess-5.4.3.jar
+APPROOT/Resources/Java/com/webobjects/JavaEOControl/5.4.3/JavaEOControl-5.4.3.jar
+APPROOT/Resources/Java/com/webobjects/JavaFoundation/5.4.3/JavaFoundation-5.4.3.jar
+APPROOT/Resources/Java/com/webobjects/JavaJDBCAdaptor/5.4.3/JavaJDBCAdaptor-5.4.3.jar
+APPROOT/Resources/Java/com/webobjects/JavaWOJSPServlet/5.4.3/JavaWOJSPServlet-5.4.3.jar
+APPROOT/Resources/Java/com/webobjects/JavaWebObjects/5.4.3/JavaWebObjects-5.4.3.jar
+APPROOT/Resources/Java/com/webobjects/JavaWebServicesSupport/5.4.3/JavaWebServicesSupport-5.4.3.jar
+APPROOT/Resources/Java/com/webobjects/JavaXML/5.4.3/JavaXML-5.4.3.jar
+
+

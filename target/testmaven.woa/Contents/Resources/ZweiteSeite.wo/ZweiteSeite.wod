@@ -1,0 +1,4 @@
+repi : WORepition{
+list = uListe;
+item = aU;
+}
