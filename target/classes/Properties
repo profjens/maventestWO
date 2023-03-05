@@ -29,6 +29,8 @@ ognl.active = true
 ognl.helperFunctions=false
 ognl.inlineBindings=true
 ognl.parseStandardTags=true
+component.inlineBindingPrefix=$
+component.inlineBindingSuffix=
 
 #========================================================================
 # Misc
