@@ -19,4 +19,4 @@ Install as "new software" in Eclipse. https://jenkins.wocommunity.org/job/WOLips
 # Sample Project -1- 
 This WebObjects project has three Components (Pages). Also included is the EOModeller File for the creation and maintaining of the database. 
 When the project is included in eclipse double click 
-https://github.com/profjens/maventestWO/issues/1#issuecomment-1455027702
+![eclipse-workspace_-_testmaven_src_main_resources_MyEOModel_eomodeld_index_eomodeld_-_Eclipse_IDE](https://user-images.githubusercontent.com/1333381/222950798-ca0242d6-660e-476e-9e3b-ba0ac97ebbfc.jpg)
