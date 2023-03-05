@@ -22,6 +22,9 @@ For Debugging I use pgAdmin 4 https://www.pgadmin.org/download/
 At the time of this writing (March 23) I use Eclipse 2022-06 (4.24.0). It works on Apple Silicon AND Intel
 ### WOLIPS 
 Install as "new software" in Eclipse. https://jenkins.wocommunity.org/job/WOLips_master/lastSuccessfulBuild/artifact/temp/dist/
+### Maven 
+As described in the description of Hugi Eclipse needs to know where the plugin is.
+<img width="801" alt="Bildschirm­foto 2023-03-05 um 16 22 57" src="https://user-images.githubusercontent.com/1333381/222969637-469fd729-6c3e-4c48-85d5-2f7366ef3ca0.png">
 # Sample Project -1- 
 This WebObjects project has three Components (Pages). Also included is the EOModeller File for the creation and maintaining of the database. 
 When the project is included in eclipse double click 
