@@ -1,8 +1,0 @@
- -destination src/test/java \
- -extension java \
- -java \
- -model MyEOModel.eomodeld \
- -packagedirs \
- -subclassDestination src/test/java \
- -verbose \
- -loadModelGroup
