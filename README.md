@@ -4,9 +4,9 @@ Many of the information is available in pieces on the web. Therefore I decided t
 # Java
 Make sure to have a version between 1.8 and 11. 
 This is my Java Version
-openjdk version "11.0.18" 2023-01-17
+`openjdk version "11.0.18" 2023-01-17
 OpenJDK Runtime Environment Temurin-11.0.18+10 (build 11.0.18+10)
-OpenJDK 64-Bit Server VM Temurin-11.0.18+10 (build 11.0.18+10, mixed mode)
+OpenJDK 64-Bit Server VM Temurin-11.0.18+10 (build 11.0.18+10, mixed mode)`
 # Tools
 ## Maven
 The easiest way to do so is via Homebrew https://brew.sh
@@ -31,8 +31,7 @@ When the project is included in eclipse double click
 ![eclipse-workspace_-_testmaven_src_main_resources_MyEOModel_eomodeld_index_eomodeld_-_Eclipse_IDE](https://user-images.githubusercontent.com/1333381/222967771-853b22c1-6761-40bc-b710-d21c62300c3d.jpg)
 # Problems
 "unresolvable build extension..." Not sure what causes this but the only way to remove the error was a hint from Hugi
-mvn dependency:purge-local-repository
+`mvn dependency:purge-local-repository`
 It will reload everything and the error goes away.
 ![image](https://user-images.githubusercontent.com/1333381/223358556-ba3b160d-f80c-4835-905f-0f394fc25cc4.png)
 
-### Problems
