@@ -49,6 +49,10 @@ er.extensions.ERXEC.safeLocking=true
 er.extensions.ERXEC.useSharedEditingContext=false
 er.extensions.ERXEnterpriseObject.applyRestrictingQualifierOnInsert=true
 er.extensions.ERXEnterpriseObject.updateInverseRelationships=true
+
+er.extensions.ERXJDBCAdaptor.className=er.extensions.jdbc.ERXJDBCAdaptor
+mydb.URL=jdbc:postgresql://127.0.0.1/mydb
+
 #dbConnectURLGLOBAL=
 #dbConnectUserGLOBAL=
 #dbConnectPasswordGLOBAL=
