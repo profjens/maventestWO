@@ -40,7 +40,7 @@ When the project is included in eclipse double click
 ![eclipse-workspace_-_testmaven_src_main_resources_MyEOModel_eomodeld_index_eomodeld_-_Eclipse_IDE](https://user-images.githubusercontent.com/1333381/222967771-853b22c1-6761-40bc-b710-d21c62300c3d.jpg)
 # Problems
 ## "unresolvable build extension..." 
-Not sure what causes this but the only way to remove the error was a hint from Hugi
+_Not sure what causes this but the only way to remove the error was a hint from Hugi_
 `mvn dependency:purge-local-repository`
 It will reload everything and the error goes away.
 ![image](https://user-images.githubusercontent.com/1333381/223358556-ba3b160d-f80c-4835-905f-0f394fc25cc4.png)
@@ -52,7 +52,7 @@ IllegalArgumentException: There is no model named 'MyEOModel' in this model grou
   at er.extensions.migration.ERXMigrator.migrateToLatest(ERXMigrator.java:185)
   at er.extensions.appserver.ERXApplication.finishInitialization(ERXApplication.java:1313)
   ... skipped 13 stack elements`
- The Problem is in the .project File
+ ### The Problem is in the .project File
  This has to be included Quote from Hugi:
 `Now, as for allowing the application to locate your model (and other WO resources) when launching from Eclipse your project file is missing a <nature>  required by WO/ERFoundation to recognize that it's a maven project (edited) `
 Add the following inside the <natures> tag in your .project
