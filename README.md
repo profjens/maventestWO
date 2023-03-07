@@ -13,6 +13,15 @@ The easiest way to do so is via Homebrew https://brew.sh
 ### Maven setup for WebObjects
 There is a nice writeup from Hugi https://gist.github.com/hugithordarson/d2ba6da9e4942f4ece95d7a721159cd1
 The necessary .settings.xml is included for illustration in this project.
+### Maven Commands that i use
+` 393  mvn clean
+  394  mvn clean compile -U
+  395  mvn -U clean install
+  399  mvn dependency:purge-local-repository`
+## Git commands that i use
+`  388  git commit -a -m "1"
+  402  git push
+  403  git status`
 ## Postgres
 Install via Homebrew
 ### Postgress Tools
