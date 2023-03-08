@@ -22,6 +22,12 @@ The necessary .settings.xml is included for illustration in this project.
 `  388  git commit -a -m "1"
   402  git push
   403  git status`
+### Git to start with a new fresh project
+1. git init
+2. git add *
+3. touch .gitignore
+4. git add .gitignore
+5. git commit -m " your message here"
 ## Postgres
 Install via Homebrew
 ### Postgress Tools
