@@ -28,6 +28,12 @@ The necessary .settings.xml is included for illustration in this project.
 3. touch .gitignore
 4. git add .gitignore
 5. git commit -m " your message here"
+6. git remote add origin https://github.com/profjens/maventestframeappWO
+At this time there are still files which have not been added. All of them start with <.*>
+7. git add .project
+8. git add .classpath
+9. git add .settings/
+10. 
 ## Postgres
 Install via Homebrew
 ### Postgress Tools
