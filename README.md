@@ -54,7 +54,7 @@ When the project is included in eclipse double click
 ## "unresolvable build extension..." 
 _Not sure what causes this but the only way to remove the error was a hint from Hugi_
 `mvn dependency:purge-local-repository`
-It will reload everything and the error goes away.
+It will reload everything and the error goes away. Note! You need to restart Eclipse for this after applying the command.
 ![image](https://user-images.githubusercontent.com/1333381/223358556-ba3b160d-f80c-4835-905f-0f394fc25cc4.png)
 ## There is no model named 'MyEOModel' in this model group
 `Mär 07 08:48:01 testmaven[56417] DEBUG NSLog  - Using JDBCPlugIn 'com.webobjects.jdbcadaptor.JDBCPlugIn' for ERXJDBCAdaptor@20224131
