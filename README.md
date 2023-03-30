@@ -73,4 +73,6 @@ And have a look in the provided ".project" File.
 ## The generated EOModeller Files miss important information
 Once I did setup a new Machine I did forget to set the preferences in WOLips to point to the WonderEntity instead of the standard Entity.java. This is important because if you make intensive use of the wonder framework this is essential!
 ![Bildschirm­foto 2023-03-26 um 11 40 43](https://user-images.githubusercontent.com/1333381/227767695-4b13985a-aa3c-4602-920d-2f3f2d520101.png)
+## I have an old (ant) WOProject and want to convert it to maven.
+Well there is a nice writeup from Hugi describing the process here https://gist.github.com/hugithordarson/3c269a3196d0c4f2da486f1109c16d42
 
