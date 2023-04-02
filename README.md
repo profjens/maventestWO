@@ -51,6 +51,9 @@ This WebObjects project has three Components (Pages). Also included is the EOMod
 When the project is included in eclipse double click 
 ![eclipse-workspace_-_testmaven_src_main_resources_MyEOModel_eomodeld_index_eomodeld_-_Eclipse_IDE](https://user-images.githubusercontent.com/1333381/222967771-853b22c1-6761-40bc-b710-d21c62300c3d.jpg)
 # Problems
+## 'list' must not be a constant	Main.html
+Template validation in WOLips is flakey, with or without Maven. Just delete this warning from the "Problems" tab in Eclipse. Done.
+I disabled "validate on build"... 
 ## "unresolvable build extension..." 
 _Not sure what causes this but the only way to remove the error was a hint from Hugi_
 `mvn dependency:purge-local-repository`
