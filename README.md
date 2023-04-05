@@ -41,6 +41,7 @@ I use DBngin for starting stopping Postgres. If gives you also a nice overview i
 For Debugging I use pgAdmin 4 https://www.pgadmin.org/download/
 ## Eclipse
 At the time of this writing (March 23) I use Eclipse 2022-06 (4.24.0). It works on Apple Silicon AND Intel
+(https://www.eclipse.org/downloads/packages/release/2022-06/r)
 ### WOLIPS 
 Install as "new software" in Eclipse. https://jenkins.wocommunity.org/job/WOLips_master/lastSuccessfulBuild/artifact/temp/dist/
 ### Maven 
