@@ -93,3 +93,10 @@ Problem is in the POM - File! Change to the following as of April 23!
 				</configuration>
 			</plugin>`
 
+## this is a tricky one. Error: `SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WILL ADD SHUTDOWNHOOK
+NSProperties.NestedProperties.load(): /Users/jens/WebObjects.properties
+[2023-4-8 7:43:9 CEST] <main> A fatal exception occurred: null
+[2023-4-8 7:43:9 CEST] <main> java.lang.ExceptionInInitializerError`
