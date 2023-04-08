@@ -83,7 +83,7 @@ Once I did setup a new Machine I did forget to set the preferences in WOLips to 
 Well there is a nice writeup from Hugi describing the process here https://gist.github.com/hugithordarson/3c269a3196d0c4f2da486f1109c16d42
 ## you get the Error: "[WARNING] bootstrap class path not set in conjunction with -source 8"
 Problem is in the POM - File! Change to the following as of April 23!
-			<plugin>
+			`<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
@@ -91,5 +91,5 @@ Problem is in the POM - File! Change to the following as of April 23!
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
-			</plugin>
+			</plugin>`
 
