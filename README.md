@@ -99,4 +99,5 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 WILL ADD SHUTDOWNHOOK
 NSProperties.NestedProperties.load(): /Users/jens/WebObjects.properties
 [2023-4-8 7:43:9 CEST] <main> A fatal exception occurred: null
-[2023-4-8 7:43:9 CEST] <main> java.lang.ExceptionInInitializerError`
+[2023-4-8 7:43:9 CEST] <main> java.lang.ExceptionInInitializerError
+	`
