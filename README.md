@@ -81,4 +81,15 @@ Once I did setup a new Machine I did forget to set the preferences in WOLips to 
 ![Bildschirm­foto 2023-03-26 um 11 40 43](https://user-images.githubusercontent.com/1333381/227767695-4b13985a-aa3c-4602-920d-2f3f2d520101.png)
 ## I have an old (ant) WOProject and want to convert it to maven.
 Well there is a nice writeup from Hugi describing the process here https://gist.github.com/hugithordarson/3c269a3196d0c4f2da486f1109c16d42
+## you get the Error: "[WARNING] bootstrap class path not set in conjunction with -source 8"
+Problem is in the POM - File! Change to the following as of April 23!
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
 
