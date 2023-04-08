@@ -101,3 +101,4 @@ NSProperties.NestedProperties.load(): /Users/jens/WebObjects.properties
 [2023-4-8 7:43:9 CEST] <main> A fatal exception occurred: null
 [2023-4-8 7:43:9 CEST] <main> java.lang.ExceptionInInitializerError
 	`
+	Solution: edit build.properties and make sure that "classes.dir" point to "target/classes" like `classes.dir = target/classes`
