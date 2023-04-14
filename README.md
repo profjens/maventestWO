@@ -102,3 +102,10 @@ NSProperties.NestedProperties.load(): /Users/jens/WebObjects.properties
 [2023-4-8 7:43:9 CEST] <main> java.lang.ExceptionInInitializerError
 	`
 	Solution: edit build.properties and make sure that "classes.dir" point to "target/classes" like `classes.dir = target/classes`
+## Error `IllegalStateException: adaptorValueType: unable to load class named 'LocalDate' for attribute myTimeInJava on entity MeinUser`
+The POM -File is missing the following segment. If you are on ANT it is included (default!). In Maven NOT. So:
+<dependency>
+  <groupId>wonder.eof</groupId>
+  <artifactId>ERAttributeExtension</artifactId>
+  <version>${wonder.version}</version>
+</dependency>
