@@ -109,3 +109,23 @@ The POM -File is missing the following segment. If you are on ANT it is included
   <artifactId>ERAttributeExtension</artifactId>
   <version>${wonder.version}</version>
 </dependency>
+## After everything is tested you want to deploy and receive a "zip" Error:
+`Exception in thread "main" com.webobjects.foundation.NSForwardException [java.util.zip.ZipException] zip END header not found:java.util.zip.ZipException: zip END header not found
+	at com.webobjects.foundation.NSForwardException._runtimeExceptionForThrowable(NSForwardException.java:45)
+	at er.extensions.appserver.ERXApplication$Loader.stringFromJar(ERXApplication.java:857)
+	at er.extensions.appserver.ERXApplication$Loader.<init>(ERXApplication.java:517)
+	at er.extensions.appserver.ERXApplication.setup(ERXApplication.java:1071)
+	at er.extensions.appserver.ERXApplication.main(ERXApplication.java:884)
+	at js_fb5.w_hs.de.hausadmin.app.Application.main(Application.java:28)
+Caused by: java.util.zip.ZipException: zip END header not found`
+I my case that happened because I created a new project based on the TEMPLATE. There the version is missing (April 23)! 
+Solution: Most likely the <version> is missing in your POM for maven-compiler-plugin. So it should look like this:
+			`<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>`
