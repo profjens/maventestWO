@@ -129,3 +129,5 @@ Solution: Most likely the <version> is missing in your POM for maven-compiler-pl
 					<target>1.8</target>
 				</configuration>
 			</plugin>`
+This did NOT solve the problem! One or more of the jars was corrupt. Tracking that down proved to be very difficult. I ended up installing "brew install JD" and after install starting it from the commandline. "java -jar /Users/jens/Downloads/jd-gui-osx-1.6.6/JD-GUI.app/Contents/Resources/Java/jd-gui-1.6.6-min.jar"
+I identified one jar "apache-ldap-api-2.1.2.jar" which could not be opened.
