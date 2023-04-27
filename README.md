@@ -131,3 +131,18 @@ Solution: Most likely the <version> is missing in your POM for maven-compiler-pl
 			</plugin>`
 This did NOT solve the problem! One or more of the jars was corrupt. Tracking that down proved to be very difficult. I ended up installing "brew install JD" and after install starting it from the commandline. "java -jar /Users/jens/Downloads/jd-gui-osx-1.6.6/JD-GUI.app/Contents/Resources/Java/jd-gui-1.6.6-min.jar"
 I identified one jar "apache-ldap-api-2.1.2.jar" which could not be opened.
+Error message 
+	`java.util.zip.ZipException: zip END header not found
+	at java.base/java.util.zip.ZipFile$Source.zerror(ZipFile.java:1607)
+	at java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1497)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1504)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1308)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1271)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:733)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:850)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:248)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:177)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:148)
+	at jdk.jartool/sun.tools.jar.Main.extract(Main.java:1388)
+	at jdk.jartool/sun.tools.jar.Main.run(Main.java:410)
+	at jdk.jartool/sun.tools.jar.Main.main(Main.java:1680)`
