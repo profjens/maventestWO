@@ -147,3 +147,4 @@ Error message
 	at jdk.jartool/sun.tools.jar.Main.run(Main.java:410)
 	at jdk.jartool/sun.tools.jar.Main.main(Main.java:1680)`
 and it is located in "org/apache/directory/api/apache-ldap-api/2.1.3/
+### Well I declare defeat. The example here are working also in Deployment but I could not figure out what is wrong with this "Zip" Error. Thanks anyway to everybody that helped!
